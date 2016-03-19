@@ -41,7 +41,9 @@ final class StaticWordLibrary extends WordLibrary {
         "easy",
         "word",
         "lame",
-        "nice"
+        "nice",
+        "game",
+        "perfect"
             
             };
 
@@ -50,7 +52,9 @@ final class StaticWordLibrary extends WordLibrary {
         "ysae",
         "dorw",
         "amel",
-        "icen"
+        "icen",
+        "amge",
+        "fectper"
     };
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
