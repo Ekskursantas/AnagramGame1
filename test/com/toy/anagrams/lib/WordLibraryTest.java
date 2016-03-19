@@ -75,7 +75,8 @@ public class WordLibraryTest extends TestCase {
         char[] scrambledArray = scrambledWord.toCharArray();
         Arrays.sort(clearArray);
         Arrays.sort(scrambledArray);
-        return Arrays.equals(clearArray, scrambledArray);
+        if(Arrays.equals(clearArray, scrambledArray))
+            return !clearWord.equals(scrambledWord);
+        return false;
     }
-
 }
